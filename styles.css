@@ -36,17 +36,20 @@ body {
 #TitleBar {
     position:static;
     background-color: #838fb6;
+    width:100vh;
 }
 #Music {
     position:static;
     height: 100%;
     background-color: #9B868D;
+    width:100vh;
 }
 #Writing {
     position:static;
     height: auto;
     background-color: #678388;
     padding-bottom: 50px;
+    width:100vh;
 }
 #Music h1 {
     text-align: center;
@@ -150,6 +153,7 @@ body {
     position:static;
     background-color: #838fb6;
     padding-bottom: 40px;
+    width:100vh;
 }
 #Reading h2 {
     color: #181d24;
@@ -183,6 +187,7 @@ body {
     position:static;
     background-color:#9B868D;
     margin:0px;
+    width:100vh;
 }
 
 #footer {
@@ -191,6 +196,7 @@ body {
     background-color:#9B868D;
     margin:0px;
     padding-top: 3px;
+    width:100vh;
 }
 #footer p {
     color: #181d24;
