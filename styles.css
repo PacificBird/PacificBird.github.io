@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .flex-container {
     display: flex;
 }
@@ -12,6 +13,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 
 body {
     overflow-y:scroll;
@@ -36,26 +38,26 @@ body {
 #TitleBar {
     position:static;
     background-color: #838fb6;
-    width:100vh;
+    height:100vh;
+    width:auto;
 }
 #Music {
     position:static;
-    height: 100%;
     background-color: #9B868D;
-    width:100vh;
+    width:100vw;
 }
 #Writing {
     position:static;
-    height: auto;
+    height: fit-content;
     background-color: #678388;
     padding-bottom: 50px;
-    width:100vh;
+    width:100%;
 }
 #Music h1 {
     text-align: center;
     color: #181d24;
     font-family: 'Lato';
-    font-size: 60px;
+    font-size: 3.1vw;
     font-style: normal;
     font-weight: bolder;
     margin-top: 0px;
@@ -66,14 +68,14 @@ body {
     height: auto;
 }
 #Music a {
-    width: 26%;
+    width: 22%;
     height: auto;
     margin-bottom: 50px;
 }
 #Writing a h1 {
     color: #181d24;
     font-family: 'Lato';
-    font-size: 40px;
+    font-size: 2.5vw;
     font-style: normal;
     font-weight: bolder;
     margin: 0px;
@@ -83,13 +85,14 @@ body {
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.2vw;
     margin-top: 0px;
+    padding-top: 1%;
 }
 #Writing h2 {
     color: #181d24;
     font-family: 'Lato';
-    font-size: 60px;
+    font-size: 3.8vw;
     font-style: normal;
     font-weight: bolder;
     margin-top: 10px;
@@ -97,14 +100,14 @@ body {
     text-align: center;
 }
 
-.columns {
+#columns {
     text-align: center;
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
     max-height: 100%;
-  }
-.columns p{
+}
+#columns p{
     text-align: center;
     margin: 10%;
     margin-top: 2%;
@@ -112,6 +115,7 @@ body {
     max-height: 100%;
     -webkit-column-break-inside:avoid;
     page-break-inside: avoid;
+    page-break-before: avoid;
 }
 #Writing p {
     text-align: center;
@@ -124,12 +128,14 @@ body {
     text-decoration-color: #1F408E ;
 }
 #introtext {
-    margin-left: 3%;
+    margin-left:2%;
+    background-color: #838fb6;
+    
 }
 #introtext h1 {
     color: #181d24;
     font-family: 'Lato';
-    font-size: 90px;
+    font-size: 5vw;
     font-style: normal;
     font-weight: bolder;
 }
@@ -138,13 +144,15 @@ body {
     font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.62vw;
     margin-left: 1%;
+    padding-right: 8%;
+    line-height: 7vh;
 }
     
 
 #mainimg {
-    max-height: 100vh;
+    height: 100vh;
     width: auto;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.315);
 }
@@ -152,13 +160,14 @@ body {
 #Reading {
     position:static;
     background-color: #838fb6;
-    padding-bottom: 40px;
-    width:100vh;
+    height: fit-content;
+    padding-bottom: 50px;
+    width:100vw;
 }
 #Reading h2 {
     color: #181d24;
     font-family: 'Lato';
-    font-size: 60px;
+    font-size: 3.2vw;
     font-style: normal;
     font-weight: bolder;
     margin-top: 10px;
@@ -177,7 +186,7 @@ body {
 #Reading h1 {
     color: #181d24;
     font-family: 'Lato';
-    font-size: 40px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: bolder;
     margin-bottom: 15px;
@@ -187,7 +196,7 @@ body {
     position:static;
     background-color:#9B868D;
     margin:0px;
-    width:100vh;
+    width:100%;
 }
 
 #footer {
@@ -196,7 +205,7 @@ body {
     background-color:#9B868D;
     margin:0px;
     padding-top: 3px;
-    width:100vh;
+    width:100%;
 }
 #footer p {
     color: #181d24;
@@ -211,4 +220,126 @@ body {
 #footer a {
     margin-left:2.5px;
     width:100%;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) and (orientation:portrait){
+
+    .flex-container {
+        display: initial;
+    }
+    #wrap {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    #TitleBar {
+        position:static;
+        background-color: #838fb6;
+        height:auto;
+        width:100vw;
+    }
+    #introtext {
+        margin:0px;
+        padding-top: 15px;
+        background-color: #838fb6;
+        width:100vw;
+        padding-bottom: 50px;
+        padding-left: 2%;
+    }
+    #introtext h1{
+        margin: 0px;
+        font-size: 5vh;
+    }
+    #introtext p {
+        font-size: 3vh;
+        line-height: 6vh;
+    }
+    #mainimg {
+        height: auto;
+        width: 100vh;
+        box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.411);
+        width:100vw;
+    }
+    .spacer {
+        background-image: linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0));
+        margin-top: 0px;
+        margin-bottom: 0px;
+        opacity: 35%;
+        height: 7%;
+        width: 100vw;
+    }
+    #Music {
+        position:static;
+        background-color: #9B868D;
+        width:100vw;
+    }
+    #Music h1 {
+        font-size: 5vh;
+        margin: 5%;
+    }
+    #Writing {
+        position:static;
+        height: auto;
+        background-color: #678388;
+        padding-bottom: 25px;
+        width:100vw;
+        text-align: center;
+    }
+    #Writing h2 {
+        font-size: 8vw;
+    }
+    #Writing h1 {
+        font-size: 8vw !important;
+    }
+    #Writing p {
+        font-size: 5vw;
+    }
+    #Reading {
+        width: 100vw;
+    }
+    #Reading h2 {
+        font-size: 8vw;
+    }
+    #Reading p {
+        font-size: 3.5vw;
+    }
+    #Reading h1 {
+        font-size: 5vw;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #Gallery {
+        width: 100vw;
+        margin-bottom: 0px;
+    }
+    #gallerybin {
+        margin-bottom: 0px;
+    }
+    #footer {
+        width: 100vw;
+    }
+    #footer p {
+        font-size: 3vw;
+    }
+    #columns {
+        text-align: center;
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        max-height: 100%;
+    }
+}
+@media only screen and (hover: none) and (pointer: coarse) and (orientation:landscape){
+
+    #introtext p {
+        color: #181d24;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.62vw;
+        margin-left: 1%;
+        line-height: 4.7vh;
+    }
+    #Writing p {
+        font-size: 1.5vw;
+    }
 }
