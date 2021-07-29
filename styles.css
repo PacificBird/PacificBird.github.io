@@ -222,7 +222,7 @@ body {
     width:100%;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) and (max-width:1440px){
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 479px){
 
     .flex-container {
         display: initial;
@@ -329,7 +329,7 @@ body {
     }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) and (min-width:1441px){
+@media only screen and (hover: none) and (pointer: coarse) and (min-width: 480px){
 
     #introtext p {
         color: #181d24;
