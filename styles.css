@@ -222,7 +222,7 @@ body {
     width:100%;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) and (max-width: 360px){
+@media (max-width: 480px){
 
     .flex-container {
         display: initial;
@@ -329,7 +329,7 @@ body {
     }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) and (min-width: 361px){
+@media (min-width: 481px){
 
     #introtext p {
         color: #181d24;
@@ -342,5 +342,27 @@ body {
     }
     #Writing p {
         font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 1920) {
+    #introtext p {
+        color: #181d24;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.62vw;
+        margin-left: 1%;
+        padding-right: 8%;
+        line-height: 7vh;
+    }
+    #Writing p {
+        color: #181d24;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        margin-top: 0px;
+        padding-top: 1%;
     }
 }
