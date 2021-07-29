@@ -222,7 +222,7 @@ body {
     width:100%;
 }
 
-@media (max-width: 480px){
+@media (max-width: 990px){
 
     .flex-container {
         display: initial;
@@ -329,7 +329,7 @@ body {
     }
 }
 
-@media (min-width: 481px){
+@media (min-width: 991px){
 
     #introtext p {
         color: #181d24;
