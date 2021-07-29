@@ -5,30 +5,6 @@
         <link rel="stylesheet" href="styles.css">
         <link href="flexbin.css" type="text/css" rel="stylesheet" media="all" />
         <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-
-        <link rel="stylesheet" type="text/css" href="mobileportrait.css" id="portrait" />
-        <link rel="stylesheet" type="text/css" href="mobilelandscape.css" id="landscape" />
-
-        <script type="text/javascript">
-            if (screen.height <= screen.width) {
-                document.getElementById('landscape').disabled = false;
-                document.getElementById('portrait').disabled = true;
-            }
-            else {
-                document.getElementById('landscape').disabled = true;
-                document.getElementById('portrait').disabled = false;
-            }
-            window.addEventListener('resize', function(event){
-                if (screen.height <= screen.width) {
-                document.getElementById('landscape').disabled = false;
-                document.getElementById('portrait').disabled = true;
-                }
-                else {
-                    document.getElementById('landscape').disabled = true;
-                    document.getElementById('portrait').disabled = false;
-                } 
-            });
-        </script>
         
     </head>
     <body>
