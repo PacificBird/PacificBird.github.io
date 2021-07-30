@@ -345,7 +345,7 @@ body {
     }
 }
 
-@media (min-width: 1920) {
+@media (min-width: 1920px) {
     #introtext p {
         color: #181d24;
         font-family: 'Lato';
