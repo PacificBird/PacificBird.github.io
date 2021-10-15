@@ -368,4 +368,7 @@ p.break {
         margin-top: 0px;
         padding-top: 1%;
     }
+    p.break {
+    break-after: column;
+    }
 }
