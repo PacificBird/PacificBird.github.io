@@ -96,11 +96,4 @@
     #footer p {
         font-size: 3vw;
     }
-    #columns {
-        text-align: center;
-        columns: 1;
-        -webkit-columns: 1;
-        -moz-columns: 1;
-        max-height: 100%;
-    }
 }

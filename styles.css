@@ -105,10 +105,6 @@ p.break {
 
 #columns {
     text-align: center;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    max-height: 100%;
 }
 #columns p{
     text-align: center;
@@ -348,7 +344,7 @@ p.break {
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1280px) {
     #introtext p {
         color: #181d24;
         font-family: 'Lato';
@@ -371,4 +367,17 @@ p.break {
     p.break {
     break-after: column;
     }
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
 }

@@ -1,4 +1,4 @@
-@media only screen and (hover: none) and (pointer: coarse){
+@media(min-width: 720px) {
 
     #introtext p {
         color: #181d24;
@@ -11,5 +11,12 @@
     }
     #Writing p {
         font-size: 2.5vw;
+    }
+    #columns{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    max-height: 100%;
+    overflow-wrap: break-word;
     }
 }
