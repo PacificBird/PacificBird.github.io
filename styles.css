@@ -364,6 +364,9 @@ p.break {
         margin-top: 0px;
         padding-top: 1%;
     }
+    #Writing{
+        align-content: center;
+    }
     p.break {
     break-after: column;
     }
@@ -379,5 +382,10 @@ p.break {
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
+      }
+      #widthcontrol{
+          width: 60%;
+          margin:auto;
+          align-content: center;
       }
 }
