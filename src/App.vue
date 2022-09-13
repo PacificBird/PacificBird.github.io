@@ -57,6 +57,8 @@
       }
   }
 
+  /* TYPOGRAPHY */
+  /* ---------- */
   body{
     margin:0
   }
@@ -64,11 +66,21 @@
   h1{
     font-size: var(--step-1);
     font-weight: 500;
+  } 
+  h2 {
+    font-weight: 400;
+    color: #a8a8a8;
+    font-size: var(--step--2);
   }
   p{
     font-weight: 400;
     color: #ebebeb;
     font-size: var(--step--1);
+  }
+  @media (max-width: 1200px) {
+    h2 {
+      font-size: var(--step-0);
+    }
   }
 
   /* ANIMATIONS */
@@ -91,7 +103,7 @@
     }
     @-webkit-keyframes slideInFromRight{
       0%{
-        transform:translateX(100%)
+        transform:translateX(200%)
         }
       to{
         transform:translateX(0)
@@ -99,7 +111,7 @@
     }
     @keyframes slideInFromRight{
       0%{
-        transform:translateX(100%)
+        transform:translateX(200%)
       }
       to{
         transform:translateX(0)

@@ -1,14 +1,22 @@
 <template>
     <div id="displayCard">
-        <div class="text">
+        <div class="text" :class="{'wide': !object}">
             <h1>
                 <slot name="h1">title</slot>
             </h1>
+            <div id="subtitles" v-if="subtitles">
+                <h2>
+                    <slot name="h2a">subtitle</slot>
+                </h2>
+                <h2>
+                    <slot name="h2b">subtitle</slot>
+                </h2>
+            </div>
             <p>
                 <slot name="p">description content</slot>
             </p>
         </div>
-        <div class="object">
+        <div class="object" v-if="object">
             <slot name="object">
                 <img src="../assets/img/shared/triangles.svg"/>
             </slot>
@@ -23,6 +31,17 @@ export default {
         
     },
 
+    props: {
+        object: {
+            default: true,
+            type: Boolean
+        },
+        subtitles: {
+            default: false,
+            type: Boolean
+        },
+        title: String
+    },
 }
 </script>
 
@@ -32,7 +51,6 @@ export default {
         margin-top: 2em;
         margin-bottom: 1em;
         width: 100%;
-        height: 100%;
     }
     @media (max-width: 1020px) {
         #displayCard {
@@ -42,7 +60,11 @@ export default {
     }
     .text {
         width: 40%;
-        margin: auto 2em;
+        margin: auto 2em auto 2em
+    }
+    #subtitles {
+        display: flex;
+        justify-content: space-between;
     }
     h1, p {
         text-align: center;
@@ -53,13 +75,20 @@ export default {
         background: var(--yellow);
         color: black;
     }
+    h2 {
+        text-align: center;
+        width: 80%;
+    }
     .object {
         width: 60%;
+    }
+    .wide {
+        width: 90%;
     }
 
     @media (max-width: 1200px) {
         .text {
-            width: 80%;
+            width: 100%;
         }
         h1 {
             font-size: var(--step-3);

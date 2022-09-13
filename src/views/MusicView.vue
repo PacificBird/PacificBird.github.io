@@ -88,4 +88,16 @@ export default {
         transform: translateX(+200%);
         transition-duration: .4s;
     }
+    @media (max-width: 1200px) {
+        #musiccolumn {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 470px) {
+        #musiccolumn {
+            width: 98%;
+            margin: 0 auto;
+        }
+    }
 </style>

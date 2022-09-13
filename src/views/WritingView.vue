@@ -58,4 +58,16 @@ export default {
     #writingcolumn {
         animation: slideInFromRight .4s 0s 1;
     }
+    @media (max-width: 1200px) {
+        #writingcolumn {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 470px) {
+        #writingcolumn {
+            width: 98%;
+            margin: 0 auto;
+        }
+    }
 </style>

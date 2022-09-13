@@ -6,10 +6,15 @@
         </svg>
     </button>
     <div class="wrapper" data-visible="false">
-        <router-link to="/"> <h1 id="home">Izzy McDonald</h1> </router-link>
+        <router-link to="/" class="gridspan"> <h1 id="home">Izzy McDonald</h1> </router-link>
         <router-link to="/writing"> <p id="writing">Writing</p> </router-link>
         <router-link to="/music"> <p id="music">Music</p> </router-link>
         <router-link to="/photography"> <p id="photography">Photography</p> </router-link>
+        <router-link to="/workexperience"> <p id="workexperience">Work Experience</p> </router-link>
+        <router-link to="/education"> <p id="education">Education</p> </router-link>
+        <router-link to="/skills"> <p id="skills">Skills</p> </router-link>
+        <router-link to="/awards"> <p id="awards">Awards</p> </router-link>
+        <router-link to="/projects"> <p id="projects">Projects</p> </router-link>
     </div>
 </template>
 
@@ -111,6 +116,14 @@ export default {
             transform: translateX(0%);
         }
     }
+    @media (max-height: 500px) { 
+        .wrapper {
+            grid-template-columns: 1fr 1fr;
+        }
+        .gridspan {
+            grid-column: span 2;
+        }
+    }
 
     /* TYPOGRAPHY */
     h1, p {
@@ -120,6 +133,7 @@ export default {
         text-align: center;
     }
     h1 {
+        margin-top: .5em;
         font-size: var(--step-2);
     }
     p {
@@ -139,6 +153,22 @@ export default {
         }
         p {
             font-size: var(--step-2);
+        }
+    }
+    @media (max-width: 470px) { 
+        h1 {
+            font-size: var(--step-2);
+        }
+        p {
+            font-size: var(--step-1);
+        }
+    }
+    @media (max-height: 500px) { 
+        h1 {
+            font-size: var(--step-1);
+        }
+        p {
+            font-size: var(--step-0);
         }
     }
 </style>
