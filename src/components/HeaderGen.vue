@@ -29,7 +29,13 @@ export default {
         page: String,
 
     },
-
+    data() {
+        return {
+            pages: [
+                "writing", "music", "photography", "workexperience", "education", "skills", "awards", "projects"
+            ]
+        }
+    },
     methods: {
         toggleMobileMenu() {
             const menuToggle = document.querySelector("#menuToggle");
@@ -50,6 +56,9 @@ export default {
     },
 
     mounted() {
+        this.pages.forEach(page => {
+            document.querySelector("." + page).classList.remove("currentPage");
+        });
         document.querySelector("." + this.page).classList.add("currentPage");
     },
     unmounted() {
