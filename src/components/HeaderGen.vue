@@ -60,6 +60,10 @@ export default {
             document.querySelector("." + page).classList.remove("currentPage");
         });
         document.querySelector("." + this.page).classList.add("currentPage");
+
+        document.querySelector("#menuToggle").setAttribute('data-boxshadow','true');
+        document.querySelector("#buttonFill").setAttribute('data-transparent','false');
+        document.querySelector(".wrapper").setAttribute('data-visible','false');
     },
     unmounted() {
         document.querySelector("." + this.page).classList.remove("currentPage");
@@ -139,13 +143,13 @@ export default {
 
     /* TYPOGRAPHY */
     h1, p {
-        margin: 1em auto;
+        margin: .5em auto;
         color: white;
         width: 80%;
         text-align: center;
     }
     h1 {
-        margin-top: .5em;
+        margin-top: .4em;
         font-size: var(--step-2);
     }
     p {
