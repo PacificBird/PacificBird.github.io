@@ -6,15 +6,15 @@
         </svg>
     </button>
     <div class="wrapper" data-visible="false">
-        <router-link to="/" class="gridspan"> <h1 id="home">Izzy McDonald</h1> </router-link>
-        <router-link to="/writing"> <p id="writing">Writing</p> </router-link>
-        <router-link to="/music"> <p id="music">Music</p> </router-link>
-        <router-link to="/photography"> <p id="photography">Photography</p> </router-link>
-        <router-link to="/workexperience"> <p id="workexperience">Work Experience</p> </router-link>
-        <router-link to="/education"> <p id="education">Education</p> </router-link>
-        <router-link to="/skills"> <p id="skills">Skills</p> </router-link>
-        <router-link to="/awards"> <p id="awards">Awards</p> </router-link>
-        <router-link to="/projects"> <p id="projects">Projects</p> </router-link>
+        <router-link to="/" class="gridspan"> <h1 class="home">Izzy McDonald</h1> </router-link>
+        <router-link to="/writing"> <p class="writing">Writing</p> </router-link>
+        <router-link to="/music"> <p class="music">Music</p> </router-link>
+        <router-link to="/photography"> <p class="photography">Photography</p> </router-link>
+        <router-link to="/workexperience"> <p class="workexperience">Work Experience</p> </router-link>
+        <router-link to="/education"> <p class="education">Education</p> </router-link>
+        <router-link to="/skills"> <p class="skills">Skills</p> </router-link>
+        <router-link to="/awards"> <p class="awards">Awards</p> </router-link>
+        <router-link to="/projects"> <p class="projects">Projects</p> </router-link>
     </div>
 </template>
 
@@ -50,7 +50,7 @@ export default {
     },
 
     mounted() {
-        document.querySelector("#" + this.page).classList.add("currentPage");
+        document.querySelector("." + this.page).classList.add("currentPage");
     },
 }
 </script>
