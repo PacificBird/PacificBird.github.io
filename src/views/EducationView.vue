@@ -40,7 +40,7 @@ export default {
                 },
                 {
                     location: 'WSU Nuclear Research Center',
-                    study: 'USNCR Reactor Operator Liscence',
+                    study: 'USNRC Reactor Operator Liscence',
                     duration: 'September, 2022 — Present',
                     description: 'One year student reactor operator training at the Dodgen Research Facility TRIGA reactor, culminating in a Nuclear Regulatory Commission Reactor Operator\'s License.',
                     file: '../img/object/nsc.jpg'

@@ -44,7 +44,7 @@
       }
   }
 
-  @media (max-width:1020px){
+  @media (max-width:1024px){
     :root{
       --step--2:clamp(0.78rem,calc(0.77rem + 0.04vw),0.80rem);
       --step--1:clamp(0.94rem,calc(0.91rem + 0.14vw),1.00rem);
