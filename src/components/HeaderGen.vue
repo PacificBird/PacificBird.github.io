@@ -52,6 +52,9 @@ export default {
     mounted() {
         document.querySelector("." + this.page).classList.add("currentPage");
     },
+    unmounted() {
+        document.querySelector("." + this.page).classList.remove("currentPage");
+    }
 }
 </script>
 
