@@ -65,6 +65,7 @@ export default {
     #subtitles {
         display: flex;
         justify-content: space-between;
+        word-break: break-all;
     }
     h1, p {
         text-align: center;

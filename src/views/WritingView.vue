@@ -36,7 +36,7 @@ export default {
                 },
                 {
                     title: 'Structure to Community to Individual',
-                    description: "This was my final essay for my English Composition 101 class during my first year of dual-credit college classes. It explores the decidedly poor progress and extensive backpedaling that has occurred in the area of racial justice (especially pertaining to African Americans) seen in the United States following the Civil Rights Movement of the 1960's. Topics follow from racism in the housing and loan market, to the consequent cycles of poverty, civil abandonment, and the many inequalities in schooling, healthcare, policing, and quality of life.",
+                    description: "This was my final essay for my English Composition 101 class during my first year of dual-credit college classes. It explores the decidedly poor progress and extensive backpedaling that has occurred in the area of racial justice (especially pertaining to Black Americans) seen in the United States following the Civil Rights Movement of the 1960's. Topics follow from racism in the housing and loan market, to the consequent cycles of poverty, civil abandonment, and the many inequalities in schooling, healthcare, policing, and quality of life.",
                     file: '/docs/structuretocommunitytoindividual.pdf'
                 },
                 {
