@@ -35,7 +35,7 @@ export default {
                     location: 'Washington State University',
                     study: 'Bachelors of Data Analytics, Agriculture and Environmental Systems',
                     duration: 'August, 2022 — Present',
-                    description: 'My current place of residence and university of study, I transfered into WSU August of 2022 with five semesters to the completion of my degree in Data Analytics. I\'m excited to see all the things Pullman campus has to offer me, such as internships, research experience, and all the people I\'ll meet!',
+                    description: 'My current place of residence and university of study, I transferred into WSU August of 2022 with five semesters to the completion of my degree in Data Analytics. I\'m excited to see all the things Pullman campus has to offer me, such as internships, research experience, and all the people I\'ll meet!',
                     file: '../img/object/wsu.jpg'
                 },
                 {
