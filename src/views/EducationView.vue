@@ -49,7 +49,7 @@ export default {
                     location: 'Yakima Valley College',
                     study: 'Associate in Arts (AA-DTA) [4.0 GPA]',
                     duration: 'September, 2020 — June, 2022',
-                    description: 'I attented YVC during my Junior and Senior years of high school through it\'s running start program, which also happened to be during the height of the COVID-19 pandemic and the lockdown. Subsequently, I spent most of my time doing online classes, but I was still able to earn my Associates and fill out nearly two years of credit to my major at WSU before I graduated high school.',
+                    description: 'I attended YVC during my Junior and Senior years of high school through it\'s running start program, which also happened to be during the height of the COVID-19 pandemic and the lockdown. Subsequently, I spent most of my time doing online classes, but I was still able to earn my Associates and fill out nearly two years of credit to my major at WSU before I graduated high school.',
                     file: '../img/object/yvc.jpg'
                 },
                 {
