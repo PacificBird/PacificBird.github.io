@@ -22,11 +22,6 @@
         You can contact me via my email, israel.mcdonald@wsu.edu, 
         or shoot me a call/text at my number, (509)834-9094.
       </p>
-
-      <p class="smalltxt">
-        This webpage, its original source code, and all original works hosted herein are dedicated to the public domain under the 
-        language of this modified version of the <a href="../docs/UNLICENSE.txt/">Unlicense</a>
-      </p>
     </div>
     <img src='../../public/img/homephoto.jpg' class="portrait"/>
   </div>
@@ -59,7 +54,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: slideInFromRight .4s 0s 1;
   }
   .portrait {
     display: none;
@@ -86,7 +80,6 @@ export default {
     height: 100vh;
     width: auto;
     box-shadow: 10px 0px 7px #111327;
-    animation: slideInFromLeft .4s 0s 1;
   }
   @media (max-width: 1024px) {
     img {
@@ -112,12 +105,5 @@ export default {
   }
   p {
     text-align: center;
-  }
-  .smalltxt{
-    font-size: var(--step--2);
-  }
-  .smalltxt a{
-    margin-top: 0px;
-    font-size: var(--step--2);
   }
 </style>
