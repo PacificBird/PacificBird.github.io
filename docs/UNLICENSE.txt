@@ -9,7 +9,7 @@ and by any means.
 
 In jurisdictions that recognize copyright laws, the author or authors
 of this software dedicate any and all copyright interest in the
-software and all documents, publications, and images
+software and all documents, publications, and images therein
 original to the author or authors of this software and not otherwise
 licensed by their respective original authors to the public domain. 
 We make this dedication for the benefit of the public at large and to the 
