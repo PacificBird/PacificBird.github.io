@@ -50,7 +50,14 @@ export default {
                     linktext: 'https://github.com/PacificBird/PacificBird.github.io',
                     link: 'https://github.com/PacificBird/PacificBird.github.io',
                     description: 'The very website you\'re looking at now! Created with Vue.JS 3 and designed for view on mobile and desktop devices, landscape or portrait. No fancy CSS libraries needed.',
-                }
+                },
+                {
+                    title: 'Infix Macro',
+                    subtitle: 'Small Rust utility',
+                    linktext: 'https://github.com/PacificBird/Infix_Macro',
+                    link: 'https://github.com/PacificBird/Infix_Macro',
+                    description: 'A declaritive macro for quickly creating the boilerplate necessary for making infix operators in Rust, using a clever abuse of operator overloading.',
+                },
             ]
         }
     }

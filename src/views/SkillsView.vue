@@ -29,12 +29,28 @@ export default {
         return {
             skills: [
                 {
+                    skill: 'Rust',
+                    description: 'My favorite language by a mile, Rust combines low level speed within 10% of bare C and high level ergonomics borrowed from the functional world with memory safety implemented without a garbage collector.'
+                },
+                {
                     skill: 'C#/F#',
                     description: 'Object oriented and functional programming in the .NET ecosystem.',
                 },
                 {
                     skill: 'JavaScript',
                     description: 'Familiarity and experience with modern JS patterns, like promises and lambda functions.',
+                },
+                {
+                    skill: 'Vue.JS',
+                    description: 'Familiarity with Vue.JS, its router, and its extensive componentization features, like views, slots, and directives.',
+                },
+                {
+                    skill: 'Java',
+                    description: 'Academic and personal experience in object oriented programming using Java.',
+                },
+                {
+                    skill: 'Python with Pandas and Polars',
+                    description: 'Experience using Python for data anlysis, leveraging the Pandas and Polars DataFrame libraries.',
                 },
                 {
                     skill: 'HTML/CSS Web Development',
@@ -53,20 +69,8 @@ export default {
                     description: 'Writing skills honed in a wide variety of academic and personal projects.',
                 },
                 {
-                    skill: 'Vue.JS',
-                    description: 'Familiarity with Vue.JS, its router, and its extensive componentization features, like views, slots, and directives.',
-                },
-                {
-                    skill: 'Java',
-                    description: 'Academic and personal experience in object oriented programming using Java',
-                },
-                {
                     skill: 'Field Data Collection',
                     description: 'Hands-on and classroom training in collecting data in the field using LIDAR, Total Stations, and manual observation.',
-                },
-                {
-                    skill: 'Data Cleaning & Processing',
-                    description: 'Applied and theoretical knowledge on the cleaning and processing of data.',
                 },
             ]
         }

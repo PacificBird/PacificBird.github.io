@@ -32,19 +32,26 @@ export default {
         return {
             employments: [
                 {
+                    location: 'WSU Department of Entomology',
+                    jobTitle: 'Research Assistant',
+                    duration: 'January, 2023 — Present',
+                    description: 'Assisting Liesl Oeller in David Crowder\'s lab with research on pea aphids as a vector of PEMV to better understand the spread of the virus and better predict the time and location of outbreaks on agricultural land.',
+                    file: '../img/object/fshn.jpg'
+                },
+                {
+                    location: 'Dodgen Research Facility',
+                    jobTitle: 'Reactor Operator Trainee',
+                    duration: 'August, 2022 — Present',
+                    description: 'The practical portion of my reactor operator trainee program involves at least ten hours of work per week at the facility. This encompasses running samples, packaging irradiated materials, maintaining labs, performing maintenance, keeping records, in addition to operating the reactor itself.',
+                    file: '../img/object/dodgen.jpg'
+                },
+                {
                     location: 'WSDOT South Central Region Survey Crew',
                     jobTitle: 'Survey Tech Intern',
                     duration: 'June, 2022 — August, 2022',
                     description: 'Summer internship at the Washington State Department of Transportation South Central Region survey office. There, I completed training for various CAD programs, survey mathematics, hydraulics, and fish passage, as well as participated in topographic survey on multiple hydraulic and fish passage related projects along different state routes.',
                     file: '../img/object/wsdot.jpg'
                 },
-                {
-                    location: 'Rosauers Supermarkets',
-                    jobTitle: 'Courtesy Clerk',
-                    duration: 'April, 2020 — September, 2021',
-                    description: 'Working courtesy at Rosauers was my first job. I was first employed right at the start of the COVID-19 pandemic and gained customer service skills while earning some pocket money for my last two years in high school.',
-                    file: '../img/object/rosauers.jpg'
-                }
             ]
         }
     }

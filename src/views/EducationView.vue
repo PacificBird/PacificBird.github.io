@@ -33,21 +33,21 @@ export default {
             educations: [
                 {
                     location: 'Washington State University',
-                    study: 'Bachelors of Data Analytics, Agriculture and Environmental Systems',
+                    study: 'Bachelor of Science in Data Analytics, Agriculture and Environmental Systems',
                     duration: 'August, 2022 — Present',
-                    description: 'My current place of residence and university of study, I transferred into WSU August of 2022 with five semesters to the completion of my degree in Data Analytics. I\'m excited to see all the things Pullman campus has to offer me, such as internships, research experience, and all the people I\'ll meet!',
+                    description: 'My current place of residence and university of study, I transferred into WSU August of 2022 with five semesters to the completion of my degree in Data Analytics.',
                     file: '../img/object/wsu.jpg'
                 },
                 {
                     location: 'WSU Nuclear Research Center',
-                    study: 'USNRC Reactor Operator Liscence',
+                    study: 'USNRC Reactor Operator License',
                     duration: 'September, 2022 — Present',
-                    description: 'One year student reactor operator training at the Dodgen Research Facility TRIGA reactor, culminating in a Nuclear Regulatory Commission Reactor Operator\'s License.',
+                    description: 'One year student reactor operator training at the Dodgen Research Facility TRIGA reactor, culminating in a Nuclear Regulatory Commission Reactor Operator\'s License. The classroom learning portion of the program encompases reactor theory, health physics, the engineering details of the facility, as well as extensive knowledge of the facility\'s regulatory laws.',
                     file: '../img/object/nsc.jpg'
                 },
                 {
                     location: 'Yakima Valley College',
-                    study: 'Associate in Arts (AA-DTA) [4.0 GPA]',
+                    study: 'Associate in Arts [4.0 GPA]',
                     duration: 'September, 2020 — June, 2022',
                     description: 'I attended YVC during my Junior and Senior years of high school through it\'s running start program, which also happened to be during the height of the COVID-19 pandemic and the lockdown. Subsequently, I spent most of my time doing online classes, but I was still able to earn my Associates and fill out nearly two years of credit to my major at WSU before I graduated high school.',
                     file: '../img/object/yvc.jpg'
