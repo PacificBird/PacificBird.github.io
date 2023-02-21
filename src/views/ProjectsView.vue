@@ -61,7 +61,7 @@ export default {
                 {
                     title: 'Human Regex',
                     subtitle: 'Expressive Rust Regex-Builder API',
-                    linktext: 'Githup Repository',
+                    linktext: 'Github Repository',
                     link: 'https://github.com/cmccomb/human_regex',
                     description: 'A declarative, human-readable API for making regular expressions in Rust with the standard regex crate.',
                 },
