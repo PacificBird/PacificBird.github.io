@@ -9,9 +9,9 @@
         and doing <router-link to="/photography">photography</router-link>.
       </p>
       <p>
-        Though currently my <router-link to="/workexperience">work experience</router-link> is limited, 
-        I have a varied background in my <router-link to="/education">education</router-link>, 
-        and during that time spent in academia I've earned a few <router-link to="/awards">awards</router-link>!
+        I've had a relatively varied amount of <router-link to="/workexperience">work experience</router-link> so far, 
+        as well as well-rounded <router-link to="/education">education</router-link>. 
+        During that time spent in academia I've earned a few <router-link to="/awards">awards</router-link> as well!
       </p>
       <p>
         Through my personal, professional, and academic <router-link to="/projects">projects</router-link>, 

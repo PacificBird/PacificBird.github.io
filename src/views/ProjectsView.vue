@@ -33,30 +33,37 @@ export default {
                 {
                     title: 'Music',
                     subtitle: 'Solo artist',
-                    linktext: 'https://pacificbird.bandcamp.com',
+                    linktext: 'Bandcamp Page',
                     link: 'https://pacificbird.bandcamp.com',
                     description: 'I write, record, mix, and master music. My albums can be previewed and listened to on all major streaming platforms, as well the music page of this website.',
                 },
                 {
                     title: 'Writing',
                     subtitle: 'Philosophy',
-                    linktext: 'https://pacificbird.dev/#/writing',
+                    linktext: 'Writing Gallery',
                     link: '../#/writing',
                     description: 'I write philosophy on the topics of community, revolution, henology, ecology, and social organization.',
                 },
                 {
                     title: 'Portfolio',
                     subtitle: 'Vue-based portfolio website',
-                    linktext: 'https://github.com/PacificBird/PacificBird.github.io',
+                    linktext: 'Portfolio Home Page',
                     link: 'https://github.com/PacificBird/PacificBird.github.io',
                     description: 'The very website you\'re looking at now! Created with Vue.JS 3 and designed for view on mobile and desktop devices, landscape or portrait. No fancy CSS libraries needed.',
                 },
                 {
                     title: 'Infix Macro',
                     subtitle: 'Small Rust utility',
-                    linktext: 'https://github.com/PacificBird/Infix_Macro',
+                    linktext: 'Github Repository',
                     link: 'https://github.com/PacificBird/Infix_Macro',
                     description: 'A declaritive macro for quickly creating the boilerplate necessary for making infix operators in Rust, using a clever abuse of operator overloading.',
+                },
+                {
+                    title: 'Human Regex',
+                    subtitle: 'Expressive Rust Regex-Builder API',
+                    linktext: 'Githup Repository',
+                    link: 'https://github.com/cmccomb/human_regex',
+                    description: 'A declarative, human-readable API for making regular expressions in Rust with the standard regex crate.',
                 },
             ]
         }
@@ -69,9 +76,8 @@ export default {
         animation: slideInFromRight .4s 0s 1;
     }
     a {
-        color: var(--red);
-        text-decoration: none;
-        font-weight: 600;
+        color: var(--lightred);
+        font-weight: 400;
     }
     @media (max-width: 1200px) {
         #projectscolumn {

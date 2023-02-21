@@ -27,6 +27,7 @@
   --dark-blue: #181B36;
   --light-blue-transparent: rgba(146, 175, 215, .9);
   --red: #C03E3E;
+  --lightred: #f03e3e;
   --yellow: #FFD046;
 
   }
