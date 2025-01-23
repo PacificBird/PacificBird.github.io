@@ -6,7 +6,7 @@
                     <DisplayCard v-for="publication in publications" :key="publication.key">
                         <template v-slot:h1>{{publication.title}}</template>
                         <template v-slot:p>{{publication.description}}</template>
-                        <template v-slot:object><iframe :src="'https://docs.google.com/viewerng/viewer?url=http://pacificbird.github.io'+publication.file+'&embedded=true'"></iframe></template>
+                        <template v-slot:object><embed :src="'http://pacificbird.github.io'+publication.file" type="application/pdf"></template>
                     </DisplayCard>
                 </div>
             </SingleColumn>
@@ -30,11 +30,6 @@ export default {
         return {
             publications: [
                 {
-                    title: 'The Life; The Art',
-                    description: 'My first independent philosophical work covering a wide range of topics as they relate to building autonomy and the revolutionary community. It is partitioned into two main sections, The Life, which ranges in topics more in the theoretical spirit, and The Art, which covers more concrete topics.',
-                    file: '/docs/thelifetheart.pdf'
-                },
-                {
                     title: 'Structure to Community to Individual',
                     description: "This was my final essay for my English Composition 101 class during my first year of dual-credit college classes. It explores the decidedly poor progress and extensive backpedaling that has occurred in the area of racial justice (especially pertaining to Black Americans) seen in the United States following the Civil Rights Movement of the 1960's. Topics follow from racism in the housing and loan market, to the consequent cycles of poverty, civil abandonment, and the many inequalities in schooling, healthcare, policing, and quality of life.",
                     file: '/docs/structuretocommunitytoindividual.pdf'
@@ -51,7 +46,7 @@ export default {
 </script>
 
 <style scoped>
-    iframe {
+    embed{
         width: 100%;
         aspect-ratio: 5/7;
     }

@@ -37,12 +37,16 @@ export default {
                     description: 'Awarded for being in the top 10% of incoming students in academic performance for the 2022/2023 academic year.',
                 },
                 {
-                    award: 'YVC President\'s List',
-                    description: 'Held above a 3.85 GPA every quarter attended.',
-                },
-                {
                     award: 'WSOS Baccalaureate',
                     description: 'Awarded by the Washington State Opportunity Scholarship to high performing students intending to earn their Bachelors degree leading to high demand STEM careers in Washington State.',
+                },
+                {
+                  award: 'WSU Outstanding Senior for Data Analytics',
+                  description: 'Awarded to the student from the Data Analytics department best exemplifying dedication to learning, leadership, and service',
+                },
+                {
+                  award: 'Summa Cum Laude Undergraduate Honors',
+                  description: 'Awarded for achieving above a 3.9 GPA during my undergraduate studies.',
                 },
             ]
         }

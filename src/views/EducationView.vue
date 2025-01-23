@@ -33,9 +33,9 @@ export default {
             educations: [
                 {
                     location: 'Washington State University',
-                    study: 'Bachelor of Science in Data Analytics, Agriculture and Environmental Systems',
-                    duration: 'August, 2022 — Present',
-                    description: 'My current place of residence and university of study, I transferred into WSU August of 2022 with five semesters to the completion of my degree in Data Analytics.',
+                    study: 'Bachelor of Science in Data Analytics, Agriculture and Environmental Systems [Summa Cum Laude]',
+                    duration: 'August, 2022 —  December, 2024',
+                    description: 'I continued my undergraduate education at WSU Pullman for five semesters, during which time I achieved high academic honors, involved myself in student clubs, organizing with the student union, and my work as a student reactor operator.',
                     file: '../img/object/wsu.jpg'
                 },
                 {

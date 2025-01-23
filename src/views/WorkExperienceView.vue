@@ -35,15 +35,15 @@ export default {
                     location: 'WSU Department of Entomology',
                     jobTitle: 'Research Assistant',
                     duration: 'January, 2023 — Present',
-                    description: 'Assisting Liesl Oeller in David Crowder\'s lab with research on pea aphids as a vector of PEMV to better understand the spread of the virus and better predict the time and location of outbreaks on agricultural land.',
+                    description: 'Laboratory and statistics research on various entomology projects across two labs, including the authoring of two academic papers on population dynamics and Bayesian decision making, geospatial analysis regarding pear pests and landscape effects, and spatiotemporal interpolation.',
                     file: '../img/object/fshn.jpg'
                 },
                 {
                     location: 'Dodgen Research Facility',
-                    jobTitle: 'Reactor Operator Trainee',
-                    duration: 'August, 2022 — Present',
-                    description: 'The practical portion of my reactor operator trainee program involves at least ten hours of work per week at the facility. This encompasses running samples, packaging irradiated materials, maintaining labs, performing maintenance, keeping records, in addition to operating the reactor itself.',
-                    file: '../img/object/dodgen.jpg'
+                    jobTitle: 'Licensed Reactor Operator',
+                    duration: 'August, 2022 — May, 2024',
+                    description: 'Duties as a licensed reactor operator include mechanical and electrical maintenance of critical safety systems, handling of radioactive material, protection of coworkers and the public from radiological hazards, standardized reporting and record keeping, instrument calibration, lab maintenance, designing standard operating procedures, and overall facility management.',
+                    file: '../img/object/dodgen.jpg',
                 },
                 {
                     location: 'WSDOT South Central Region Survey Crew',

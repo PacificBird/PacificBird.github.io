@@ -29,8 +29,24 @@ export default {
         return {
             skills: [
                 {
+                    skill: 'R and RMarkdown',
+                    description: 'Extensive academic and professional experience with R and RMarkdown documents with libraries such as the Tidyverse and Tidymodels ecosystem, concurrency with Futures and Furrr, visualization using ggplot2 and plotly, geospatial analysis with SF and Terra, as well as interactive interfaces with Shiny.',
+                },
+                {
                     skill: 'Rust',
                     description: 'My favorite language by a mile, Rust combines low level speed within 10% of bare C and high level ergonomics borrowed from the functional world with memory safety implemented without a garbage collector.'
+                },
+                {
+                    skill: 'Git',
+                    description: 'It is an industry standard for a good reason.'
+                },
+                {
+                    skill: 'QGIS',
+                    description: 'Geospatial analysis and creative mapping with open source software!'
+                },
+                {
+                    skill: 'Health Physics/RadHazMat',
+                    description: 'Two years of professional experience handling and working around radioactive material and protecting the public from radiological hazards.'
                 },
                 {
                     skill: 'C#/F#',
@@ -70,7 +86,7 @@ export default {
                 },
                 {
                     skill: 'Field Data Collection',
-                    description: 'Hands-on and classroom training in collecting data in the field using LIDAR, Total Stations, and manual observation.',
+                    description: 'Hands-on and classroom training in collecting data in the field using LIDAR, Total Stations, and observation.',
                 },
             ]
         }

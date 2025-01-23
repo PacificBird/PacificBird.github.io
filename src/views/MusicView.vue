@@ -33,6 +33,11 @@ export default {
         return {
             publications: [
                 {
+                    title: 'Kims, Dans, Etc.',
+                    description: "Recordings of the songs written by my high school band, as well as an original recording brought back from the dead!",
+                    code: '740981497'
+                },
+                {
                     title: 'Birdcalls',
                     description: "By far my biggest project yet. The distilled emotion of the past two-ish years into a 55 minute sequence of bangers. I put a lot of effort (and money) into overhauling my recording process in order to put something out much more high quality than I have before. Like Dinnerdate, it is a very personal record, written mostly during the lowest low I've ever been in. It's definitely not all sad though, I made sure to give it a good amount of hope as well.",
                     code: '2388469711'

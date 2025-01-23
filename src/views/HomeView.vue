@@ -2,7 +2,7 @@
   <div class="background">
     <img src='../../public/img/homephoto.jpg' class="landscape"/>
     <div class="container">
-      <h1>Izzy McDonald // Pacific Bird</h1>
+      <h1>Izzy McCabe// Pacific Bird</h1>
       <p>
         Hello! I'm Izzy, I enjoy <router-link to="/writing">writing</router-link>, 
         recording <router-link to="/music">music</router-link>, 

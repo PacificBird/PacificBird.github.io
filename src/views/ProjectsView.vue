@@ -31,18 +31,32 @@ export default {
         return {
             projects: [
                 {
-                    title: 'Music',
-                    subtitle: 'Solo artist',
-                    linktext: 'Bandcamp Page',
-                    link: 'https://pacificbird.bandcamp.com',
-                    description: 'I write, record, mix, and master music. My albums can be previewed and listened to on all major streaming platforms, as well the music page of this website.',
+                    title: 'GIS Portfolio',
+                    subtitle: 'Mapping and Analysis',
+                    linktext: 'Github Repository',
+                    link: 'https://github.com/PacificBird/GIS_Portfolio',
+                    description: 'A gallery of compositions made during the course of my professional and academic career.',
                 },
                 {
-                    title: 'Writing',
-                    subtitle: 'Philosophy',
-                    linktext: 'Writing Gallery',
-                    link: '../#/writing',
-                    description: 'I write philosophy on the topics of community, revolution, henology, ecology, and social organization.',
+                    title: 'Pear Scylla IPM Landscape Analysis',
+                    subtitle: 'Geospatial Landscape Effects Study',
+                    linktext: 'Github Repository',
+                    link: 'https://github.com/PacificBird/pear_ipm_landscape_analysis',
+                    description: 'Required R code, data specifications, and documentation therein to perform a multiple ring buffer analysis on the spatial effects of conventional orchard management on the efficacy of non-conventional management strategies for pear scylla, including the novel IPM strategy developed at the WSU Tree Fruit Research Extension Center in Wenatchee, WA.',
+                },
+                {
+                    title: 'WSU NSC Experimental Design and Review Poster',
+                    subtitle: 'Public-Facing Facility Education',
+                    linktext: 'Document Link',
+                    link: 'http://pacificbird.github.io/docs/experimental_design_review_izzym.pdf',
+                    description: 'Poster project made during my training reactor operator training program detailing the technical specifications and review/approval process pertaining to experiments at the WSU Nuclear Science Center, as well as examples of apparatus design and ongoing experiment types',
+                },
+                {
+                    title: 'Codling Moth Population Simulation and Analysis',
+                    subtitle: 'Population Dynamics Research',
+                    linktext: 'Github Repository',
+                    link: 'https://github.com/PacificBird/InsectPhenologyCaptureSim',
+                    description: 'A Rust-based simulation for the emergence, mortality, and capture of codling moth in the field, created using earlier models from the Jones & Wiman articles published in the Journal of Population Ecology, as well as the associated Python-based analysis of simulation and field data resulting in the creation of novel models for the extraction of trapping efficiency from field data and the accurate prediction of overall population size from early field data.',
                 },
                 {
                     title: 'Portfolio',
@@ -50,13 +64,6 @@ export default {
                     linktext: 'Portfolio Home Page',
                     link: 'https://github.com/PacificBird/PacificBird.github.io',
                     description: 'The very website you\'re looking at now! Created with Vue.JS 3 and designed for view on mobile and desktop devices, landscape or portrait. No fancy CSS libraries needed.',
-                },
-                {
-                    title: 'Infix Macro',
-                    subtitle: 'Small Rust utility',
-                    linktext: 'Github Repository',
-                    link: 'https://github.com/PacificBird/Infix_Macro',
-                    description: 'A declaritive macro for quickly creating the boilerplate necessary for making infix operators in Rust, using a clever abuse of operator overloading.',
                 },
                 {
                     title: 'Human Regex',
