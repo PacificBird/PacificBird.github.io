@@ -6,7 +6,7 @@
                     <DisplayCard v-for="publication in publications" :key="publication.key">
                         <template v-slot:h1>{{publication.title}}</template>
                         <template v-slot:p>{{publication.description}}</template>
-                        <template v-slot:object><embed :src="'http://pacificbird.github.io'+publication.file" type="application/pdf"></template>
+                        <template v-slot:object><embed :src="'https://pacificbird.github.io'+publication.file" type="application/pdf"></template>
                     </DisplayCard>
                 </div>
             </SingleColumn>
